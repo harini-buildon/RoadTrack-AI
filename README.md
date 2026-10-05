@@ -1,4 +1,4 @@
-# AegisTrack AI™
+# RoadTrack AI
 
 ### *Enterprise-Grade Multi-Camera Vehicle Tracking, Spatiotemporal Re-ID & Ensemble Route Prediction Platform*
 
@@ -14,15 +14,15 @@
 
 ## 📌 Executive Summary
 
-**AegisTrack AI** is an advanced, production-ready Intelligent Transportation System (ITS) platform designed for real-time vehicle re-identification (Re-ID), spatiotemporal tracking across non-overlapping multi-CCTV networks, and ensemble route trajectory forecasting. 
+**RoadTrack AI** is an advanced, production-ready Intelligent Transportation System (ITS) platform designed for real-time vehicle re-identification (Re-ID), spatiotemporal tracking across non-overlapping multi-CCTV networks, and ensemble route trajectory forecasting. 
 
-Engineered for smart cities, municipal transit authorities, and law enforcement agencies, AegisTrack combines high-throughput computer vision inference with topological road network graphs (OpenStreetMap / PostGIS) and Google Gemini AI forensic intelligence. It addresses the fundamental challenges of multi-camera vehicle tracking: severe visual occlusions, perspective distortion, lighting variations, and intermittent camera blind spots.
+Engineered for smart cities, municipal transit authorities, and law enforcement agencies, RoadTrack AI combines high-throughput computer vision inference with topological road network graphs (OpenStreetMap / PostGIS) and Google Gemini AI forensic intelligence. It addresses the fundamental challenges of multi-camera vehicle tracking: severe visual occlusions, perspective distortion, lighting variations, and intermittent camera blind spots.
 
 ---
 
 ## 🏛️ System Architecture
 
-AegisTrack operates on an asynchronous, event-driven **"Dual-Brain" architecture**:
+RoadTrack AI operates on an asynchronous, event-driven **"Dual-Brain" architecture**:
 1. **Vision Brain (Perception Engine):** Ingests live RTSP/HTTP streams, detects vehicles using YOLOv11, tracks intra-camera trajectories via ByteTrack, performs multi-frame temporal license plate recognition (ALPR), and extracts 512-dimensional deep appearance embeddings.
 2. **GIS & Graph Brain (Spatial-Temporal Cognition):** Models the physical road network as a directed weighted graph, snapping camera observations to road segments, computing transition matrices, and executing multi-hypothesis route predictions calibrated using Softmax temperature scaling.
 
@@ -109,7 +109,7 @@ $$\hat{P}_i = \frac{\exp(z_i / T)}{\sum_j \exp(z_j / T)}$$
 
 Evaluated against held-out multi-camera transit trajectory benchmarks:
 
-| Metric | AegisTrack Engine | Baseline (Markov Only) | Baseline (Re-ID Only) |
+| Metric | RoadTrack AI Engine | Baseline (Markov Only) | Baseline (Re-ID Only) |
 |---|:---:|:---:|:---:|
 | **Top-1 Route Accuracy** | **71.4%** | 52.1% | 58.6% |
 | **Top-3 Route Accuracy** | **96.5%** | 78.4% | 83.2% |
@@ -274,7 +274,7 @@ All endpoints are hosted under `/api/v1` and support standard JSON request/respo
 
 ## 🔒 Security & RBAC Matrix
 
-AegisTrack incorporates a defense-in-depth model complying with modern privacy mandates:
+RoadTrack AI incorporates a defense-in-depth model complying with modern privacy mandates:
 
 | Role | Camera Manage | Vehicle Track | Sensitive Search | Audit Read | Model Deploy |
 |---|:---:|:---:|:---:|:---:|:---:|
@@ -289,12 +289,12 @@ AegisTrack incorporates a defense-in-depth model complying with modern privacy m
 
 ## 📖 Citation & Research Reference
 
-If you utilize AegisTrack in academic research, intelligent transportation benchmarks, or industrial surveillance studies, please cite:
+If you utilize RoadTrack AI in academic research, intelligent transportation benchmarks, or industrial surveillance studies, please cite:
 
 ```bibtex
-@article{aegistrack2025,
-  title={AegisTrack: Multimodal Spatiotemporal Re-Identification and Temperature-Calibrated Ensemble Route Prediction across Disjoint CCTV Networks},
-  author={AegisTrack Research Group},
+@article{roadtrack2025,
+  title={RoadTrack AI: Multimodal Spatiotemporal Re-Identification and Temperature-Calibrated Ensemble Route Prediction across Disjoint CCTV Networks},
+  author={RoadTrack AI Research Group},
   journal={IEEE Transactions on Intelligent Transportation Systems},
   year={2025},
   volume={26},
