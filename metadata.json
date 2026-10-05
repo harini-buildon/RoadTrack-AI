@@ -1,0 +1,6 @@
+{
+  "name": "AegisTrack AI Vehicle Tracking & Route Prediction",
+  "description": "Production-grade AI multi-CCTV vehicle tracking, Re-ID association, road graph network analysis, real-time OpenStreetMap & India Geo maps visualization, and ensemble route prediction platform.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

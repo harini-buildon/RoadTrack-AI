@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@keyframes routePulseGlow {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 10px var(--glow-color, #00e5ff));
+  }
+  50% {
+    opacity: 0.65;
+    filter: drop-shadow(0 0 4px var(--glow-color, #00e5ff));
+  }
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+.animate-route-glow {
+  animation: routePulseGlow 2.4s ease-in-out infinite;
+}
+
+.animate-dash-flow {
+  animation: dashFlow 1.2s linear infinite;
+}
