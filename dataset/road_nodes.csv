@@ -1,0 +1,9 @@
+node_id,node_name,latitude,longitude,intersection_type
+NODE-01,Anna Salai & Mount Road Junction,13.0827,80.2707,4_WAY
+NODE-02,Chennai Central & EVR Periyar Salai,13.0836,80.2755,4_WAY
+NODE-03,Ripon Building & Poonamallee High Rd,13.0818,80.2780,HIGHWAY_RAMP
+NODE-04,Island Grounds & Kamarajar Promenade,13.0780,80.2790,4_WAY
+NODE-05,Marina Beach Coastal Highway Jct,13.0710,80.2830,T_JUNCTION
+NODE-06,Egmore Gandhi Irwin Roundabout,13.0790,80.2610,ROUNDABOUT
+NODE-07,Koyambedu Ring Expressway Ramp,13.0694,80.1948,HIGHWAY_RAMP
+NODE-08,Kathipara Urban Flyover Gateway Jct,13.0067,80.2030,4_WAY

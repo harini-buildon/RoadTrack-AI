@@ -1,0 +1,13 @@
+edge_id,edge_name,start_node_id,end_node_id,length_meters,speed_limit_kmh,lanes,road_type,baseline_travel_time_sec
+ROAD-101,Anna Salai Eastbound Arterial,NODE-01,NODE-02,400.0,50,3,ARTERIAL,28.8
+ROAD-102,Anna Salai Westbound Arterial,NODE-02,NODE-01,400.0,50,3,ARTERIAL,28.8
+ROAD-103,EVR Periyar High Road Corridor,NODE-02,NODE-03,450.0,60,2,ARTERIAL,27.0
+ROAD-104,Kamarajar Promenade Southbound,NODE-02,NODE-04,380.0,45,2,ARTERIAL,30.4
+ROAD-105,Kamarajar Promenade Northbound,NODE-04,NODE-02,380.0,45,2,ARTERIAL,30.4
+ROAD-106,Marina Coastal Highway Link,NODE-03,NODE-05,420.0,60,3,HIGHWAY,25.2
+ROAD-107,Island Grounds Connector East,NODE-04,NODE-05,390.0,45,2,ARTERIAL,31.2
+ROAD-108,Egmore Link Arterial North,NODE-02,NODE-06,320.0,40,2,ARTERIAL,28.8
+ROAD-109,Mount Road - Koyambedu Link,NODE-01,NODE-07,460.0,50,2,ARTERIAL,33.1
+ROAD-110,Egmore - Kathipara Corridor,NODE-06,NODE-08,380.0,50,3,ARTERIAL,27.4
+ROAD-111,Kathipara - Marina Bypass Loop,NODE-08,NODE-03,340.0,45,2,ARTERIAL,27.2
+ROAD-112,Koyambedu - Island Express Link,NODE-07,NODE-04,410.0,65,3,HIGHWAY,22.7
